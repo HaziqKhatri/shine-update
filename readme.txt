@@ -1,14 +1,21 @@
-# Shiny Updates [![Build Status](https://travis-ci.org/obenland/shiny-updates.svg?branch=master)](https://travis-ci.org/obenland/shiny-updates) [![Code Climate](https://codeclimate.com/github/obenland/shiny-updates/badges/gpa.svg)](https://codeclimate.com/github/obenland/shiny-updates)
+# Shiny Updates
+Contributors: obenland, adamsilverstein, michaelarestad, mapk, j-falk, kraftbj, ipstenu, ethitter, swissspidy
+Tags: updates, admin, feature-plugin, plugin, theme, multisite, network, auto-updates
+Requires at least: 4.6-alpha
+Tested up to: 6.3.1
+License: GPLv2 or later
 
-Removes the ugly bits of updating WordPress, plugins, themes and such.
+A smoother experience for managing plugins and themes.
 
+## Description
 
-## Installation
+Shiny Updates is a WordPress Core Feature Plugin.
 
-1. Download Shiny Updates.
-2. Unzip the folder into the `/wp-content/plugins/` directory.
-3. Activate the plugin through the 'Plugins' menu in WordPress.
+It replaces *The Bleak Screen of Sadness™* (example) with a simpler and more straight forward experience when installing, updating, and deleting plugins and themes.
+Progress updates for these actions don't add a benefit, they are disruptive and confusing. Shiny Updates deals with these details behind the scenes, leaving users with clear actions and results.
 
+Development for this plugin takes place at GitHub.
+To report bugs or feature requests, please use [Github issues](https://github.com/obenland/shiny-updates/issues).
 
 ### Testing
 We need help testing the user flows! Please [install the Shiny Updates plugin](https://wordpress.org/plugins/shiny-updates/), run the tests below, and share your feedback in the [#feature-shinyupdates](https://wordpress.slack.com/archives/feature-shinyupdates) channel in Slack or [create an issue on GitHub](https://github.com/obenland/shiny-updates/issues).
@@ -26,20 +33,8 @@ We need help testing the user flows! Please [install the Shiny Updates plugin](h
 1. How did installing and activating a plugin or theme go? Was it difficult or easy? Was it faster or slower than expected?
 1. Do you have any further comments or suggestions?
 
+## Installation
+## Screenshots
 
-### Running the Unit Tests
-
-While working on Shiny Updates, please make sure to always have Grunt in watch mode. You'll be notified immediately about failing test cases and code style errors, minimizing the amount of cleanup we will have to do when we prepare to merge this Feature Plugin into WordPress Core.
-
-Make sure you have the necessary dependencies:
-
-```bash
-npm install
-composer install
-```
-
-Start `grunt watch` or `npm start` to auto-build Shiny Updates as you work:
-
-```bash
-grunt watch
-```
+1. Existing plugin install process, showing The Bleak Screen of Sadness.
+2. Plugin install process with Shiny Updates activated.
