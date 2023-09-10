@@ -2,7 +2,7 @@
 Contributors: obenland, adamsilverstein, michaelarestad, mapk, j-falk, kraftbj, ipstenu, ethitter, swissspidy
 Tags: updates, admin, feature-plugin, plugin, theme, multisite, network, auto-updates
 Requires at least: 4.6-alpha
-Tested up to: 6.3.1
+Tested up to: 4.6
 License: GPLv2 or later
 
 A smoother experience for managing plugins and themes.

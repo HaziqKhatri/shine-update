@@ -1,9 +1,10 @@
 <?php
 /**
- * Plugin Name: Shine Update
+ * Plugin Name: Shiny Updates
  * Plugin URI: https://github.com/obenland/shiny-updates
  * Description: A smoother experience for managing plugins and themes.
- * Author: Haziq Khatri
+ * Author: the WordPress team
+ * Author URI: https://github.com/obenland/shiny-updates
  * Version: 3-20160927
  * License: GPL2
  *
